@@ -26,6 +26,7 @@
           </e>
           <e p="Enums" t="Include">
             <e p="AmmunitionType.cs" t="Include" />
+            <e p="EnemyType.cs" t="Include" />
             <e p="FlashLightActiveType.cs" t="Include" />
             <e p="MouseButton.cs" t="Include" />
             <e p="PoolingStratagy.cs" t="Include" />
@@ -43,6 +44,9 @@
           <e p="Model" t="Include">
             <e p="Aim.cs" t="Include" />
             <e p="Ammunition.cs" t="Include" />
+            <e p="ArmoredEnemy.cs" t="Include" />
+            <e p="ArmorPiercingBullet.cs" t="Include" />
+            <e p="ArmorPiercingGun.cs" t="Include" />
             <e p="AutomaticGun.cs" t="Include" />
             <e p="BaseObject.cs" t="Include" />
             <e p="Bullet.cs" t="Include" />
@@ -51,8 +55,8 @@
               <e p="CacheObjectRepo.cs" t="Include" />
             </e>
             <e p="Clip.cs" t="Include" />
+            <e p="Enemy.cs" t="Include" />
             <e p="FlashLightModel.cs" t="Include" />
-            <e p="Gun.cs" t="Include" />
             <e p="Inventory.cs" t="Include" />
             <e p="UnitMotor.cs" t="Include" />
             <e p="Wall.cs" t="Include" />

@@ -8,9 +8,9 @@ namespace FirstPersonShooter
     /// </summary>
     public abstract class Weapon : BaseObject
     {
-        private int _countClip = 5;
-        private int _maxCountAmmunition = 40;
-        private int _minCountAmmunition = 20;
+        protected int _countClip = 5;
+        protected int _maxCountAmmunition = 40;
+        protected int _minCountAmmunition = 20;
         private Queue<Clip> _clips = new Queue<Clip>();
 
 

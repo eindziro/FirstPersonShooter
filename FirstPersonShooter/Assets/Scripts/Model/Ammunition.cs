@@ -6,7 +6,7 @@ namespace FirstPersonShooter
     /// <summary>
     /// Базовая модель снаряда
     /// </summary>
-    public abstract class Ammunition:BaseObject
+    public abstract class Ammunition : BaseObject
     {
         [SerializeField] private float _timeToDestruct = 10;
         [SerializeField] private float _baseDamage = 10;
@@ -25,10 +25,10 @@ namespace FirstPersonShooter
         private void Start()
         {
             _timeRemainings = new TimeRemaining[2];
-            Destroy(gameObject,_timeToDestruct);
-            _timeRemainings[0]= new TimeRemaining(LossOfDamage,1.0f,true);
+            Destroy(gameObject, _timeToDestruct);
+            _timeRemainings[0] = new TimeRemaining(LossOfDamage, 1.0f, true);
             //CR: можно передававть метод, в котором присутствует отписка?
-            _timeRemainings[1] = new TimeRemaining(ReturnAmmoToPool,_timeToDestruct,false);
+            _timeRemainings[1] = new TimeRemaining(ReturnAmmoToPool, _timeToDestruct, false);
         }
 
         /// <summary>
@@ -51,16 +51,14 @@ namespace FirstPersonShooter
         protected void ReturnAmmoToPool()
         {
             tag = GetEnumMemberName();
-            CacheObjectRepo.Instance.ReturnObjToPool(gameObject,tag);
+            CacheObjectRepo.Instance.ReturnObjToPool(gameObject, tag);
             foreach (ITimeRemaining timeRemaining in _timeRemainings)
             {
                 timeRemaining.RemoveTimeRemaining();
             }
         }
-        
-        public  string GetEnumMemberName()
+
+        public string GetEnumMemberName()
             => Enum.GetName(typeof(AmmunitionType), Type).ToLower();
-        
-        
     }
 }

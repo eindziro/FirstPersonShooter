@@ -10,13 +10,13 @@ namespace FirstPersonShooter
         private KeyCode _activeFlashLight = KeyCode.F;
         private KeyCode _cancel = KeyCode.Escape;
         private KeyCode _reloadClip = KeyCode.R;
-        private int _mouseButton = (int)MouseButton.LeftButton;
+        private int _mouseButton = (int) MouseButton.LeftButton;
 
         public InputController()
         {
             Cursor.lockState = CursorLockMode.Locked;
         }
-		
+
         public void Execute()
         {
             if (!IsActive) return;
@@ -24,13 +24,17 @@ namespace FirstPersonShooter
             {
                 ServiceLocator.Resolve<FlashLightController>().Switch(ServiceLocator.Resolve<Inventory>().FlashLight);
             }
-            //todo реализовать выбор оружия по колесику мыши
 
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
                 SelectWeapon(0);
             }
-            
+
+            var wheel = Input.GetAxis("Mouse ScrollWheel");
+            bool isNext = wheel > 0;
+            SelectNextWeapon(isNext);
+
+
             if (Input.GetMouseButton(_mouseButton))
             {
                 if (ServiceLocator.Resolve<WeaponController>().IsActive)
@@ -54,6 +58,15 @@ namespace FirstPersonShooter
             }
         }
 
+        private void SelectNextWeapon(bool isNext)
+        {
+            ServiceLocator.Resolve<WeaponController>().Off();
+            var tempWeapon = ServiceLocator.Resolve<Inventory>().ActivateWeapon(isNext);
+            if (tempWeapon != null)
+            {
+                ServiceLocator.Resolve<WeaponController>().On(tempWeapon);
+            }
+        }
 
         /// <summary>
         /// Выбор оружия
@@ -62,7 +75,7 @@ namespace FirstPersonShooter
         private void SelectWeapon(int i)
         {
             ServiceLocator.Resolve<WeaponController>().Off();
-            var tempWeapon = ServiceLocator.Resolve<Inventory>().Weapons[i]; //todo инкапсулировать
+            var tempWeapon = ServiceLocator.Resolve<Inventory>().ActivateWeapon(i); 
             if (tempWeapon != null)
             {
                 ServiceLocator.Resolve<WeaponController>().On(tempWeapon);

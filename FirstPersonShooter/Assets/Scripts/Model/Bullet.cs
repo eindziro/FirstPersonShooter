@@ -11,7 +11,7 @@ namespace FirstPersonShooter
 
             if (setDamage != null)
             {
-                setDamage.CollisionEnter(new InfoCollision(_curDamage, Rigidbody.velocity));
+                setDamage.CollisionEnter(new InfoCollision(_curDamage,Type, Rigidbody.velocity));
             }
 
             ReturnAmmoToPool();
