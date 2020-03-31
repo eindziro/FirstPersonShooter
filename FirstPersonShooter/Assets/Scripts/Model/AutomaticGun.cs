@@ -11,7 +11,10 @@
                 return;
             if (Clip.CountAmmunition <= 0) 
                 return;
-            var tmpAmmunition = Instantiate(Ammunition, _barrel.position, _barrel.rotation);
+            var  obj = CacheObjectRepo.Instance.SpawnCachedObject(Ammunition.GetEnumMemberName(),
+                _barrel.position, _barrel.rotation,PoolingStratagy.EnqueueManuallyLater);
+            //CR: Роман, посмотри пж, можно ли так делать?
+            var tmpAmmunition = GetComponent<Ammunition>();
             tmpAmmunition.AddForce(_barrel.forward*_force);
             Clip.CountAmmunition--;
             _isReady = false;

@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="68da7a06-a7fd-4fb2-b8a0-88749eed0381" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FirstPersonShooter/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FirstPersonShooter/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FirstPersonShooter/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FirstPersonShooter/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FirstPersonShooter/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FirstPersonShooter/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FirstPersonShooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FirstPersonShooter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Aim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/AutomaticGun.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///C# Console" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Wall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/UnitMotor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Gun.cs" root0="FORCE_HIGHLIGHTING" />
@@ -68,18 +65,24 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/Controllers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/SelectionController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/WeaponController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/PoolingStratagy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/BaseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Cache/CacheObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/TimeRemaining/TimeRemainingExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/TimeRemaining/TimeRemaining.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Cache/CacheObjectRepo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Consts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/TimeRemaining/TimeRemainingController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/TimeRemaining/ITimeRemaining.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ServiceLocator/ServiceLocatorMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ServiceLocator/ServiceLocator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://E:/FirstPersonShooter/Assets/Scripts/Controller/SelectionController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B956647-017D-4DC1-B8D3-D25EEF012467/6c/ee31ec22/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///C# Console" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/56/becf9689/Action.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D815B7EF-AC42-4EEB-8E05-3965CCCB1F98/6a/4e0cf4b0/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D815B7EF-AC42-4EEB-8E05-3965CCCB1F98/a0/94eabfa2/Application.cs" root0="SKIP_HIGHLIGHTING" />
@@ -109,9 +112,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller/TimeRemaining/TimeRemainingController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enums/AmmunitionType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enums/MouseButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Model/Ammunition.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Model/Clip.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Model/AutomaticGun.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Model/Gun.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Helpers/InfoCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interface/ICollision.cs" />
@@ -129,10 +130,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/View/UiInterface.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Model/Wall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller/SelectionController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Controllers.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller/InputController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller/WeaponController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller/BaseController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Model/Cache/CacheObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/Controllers.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enums/PoolingStratagy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Consts.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Model/Cache/CacheObjectRepo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Model/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Model/AutomaticGun.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Model/Ammunition.cs" />
       </list>
     </option>
   </component>
@@ -189,6 +197,7 @@
       <workItem from="1585506497294" duration="2927000" />
       <workItem from="1585509445373" duration="5358000" />
       <workItem from="1585596857015" duration="52000" />
+      <workItem from="1585600640109" duration="18886000" />
     </task>
     <servers />
   </component>
@@ -310,9 +319,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584992001384" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585509794021">
+    <state x="638" y="118" width="644" height="804" key="find.popup" timestamp="1585644427679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585509794021" />
+    <state x="638" y="118" width="644" height="804" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585644427679" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585608018522">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585608018522" />
   </component>
 </project>

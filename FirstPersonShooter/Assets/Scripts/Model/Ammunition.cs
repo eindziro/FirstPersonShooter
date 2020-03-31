@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace FirstPersonShooter
 {
@@ -11,7 +12,7 @@ namespace FirstPersonShooter
         [SerializeField] private float _baseDamage = 10;
         protected float _curDamage;
         private float _lossOfDamageAtTime = 0.2f;
-        private TimeRemaining _timeRemaining;
+        private ITimeRemaining[] _timeRemainings;
 
         public AmmunitionType Type = AmmunitionType.Bullet;
 
@@ -23,8 +24,11 @@ namespace FirstPersonShooter
 
         private void Start()
         {
+            _timeRemainings = new TimeRemaining[2];
             Destroy(gameObject,_timeToDestruct);
-            _timeRemaining = new TimeRemaining(LossOfDamage,1.0f,true);
+            _timeRemainings[0]= new TimeRemaining(LossOfDamage,1.0f,true);
+            //CR: можно передававть метод, в котором присутствует отписка?
+            _timeRemainings[1] = new TimeRemaining(ReturnAmmoToPool,_timeToDestruct,false);
         }
 
         /// <summary>
@@ -43,6 +47,20 @@ namespace FirstPersonShooter
         /// </summary>
         private void LossOfDamage()
             => _curDamage -= _lossOfDamageAtTime;
+
+        protected void ReturnAmmoToPool()
+        {
+            tag = GetEnumMemberName();
+            CacheObjectRepo.Instance.ReturnObjToPool(gameObject,tag);
+            foreach (ITimeRemaining timeRemaining in _timeRemainings)
+            {
+                timeRemaining.RemoveTimeRemaining();
+            }
+        }
+        
+        public  string GetEnumMemberName()
+            => Enum.GetName(typeof(AmmunitionType), Type).ToLower();
+        
         
     }
 }
