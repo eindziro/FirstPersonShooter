@@ -2,6 +2,9 @@
 
 namespace FirstPersonShooter
 {
+    /// <summary>
+    /// Базовая модель объекта, находящегося на сцене
+    /// </summary>
     public abstract class BaseObject : MonoBehaviour
     {
         private int _layer;

@@ -1,18 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace FirstPersonShooter
 {
-    public class AimUIText:MonoBehaviour
+    public class AimUIText : MonoBehaviour
     {
-        private Aim[] _aims;
+        private List<Aim> _aims;
         private Text _text;
         private int _countPoint;
 
         private void Awake()
         {
-            _aims = FindObjectsOfType<Aim>();
+            _aims = FindObjectsOfType<Aim>().ToList();
             _text = GetComponent<Text>();
         }
 
@@ -32,7 +34,7 @@ namespace FirstPersonShooter
             }
         }
 
-        private void UpdatePoint()
+        private void UpdatePoint(object o, EventArgs args)
         {
             var pointTxt = "очков";
             ++_countPoint;
@@ -40,7 +42,11 @@ namespace FirstPersonShooter
             else if (_countPoint == 1) pointTxt = "очко";
             else if (_countPoint < 5) pointTxt = "очка";
             _text.text = $"Вы заработали {_countPoint} {pointTxt}";
-            //todo отписаться удалить и списка
+            if (o is Aim aim)
+            {
+                aim.OnPointChanged -= UpdatePoint;
+                _aims.Remove(aim);
+            }
         }
     }
 }

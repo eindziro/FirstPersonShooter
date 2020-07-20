@@ -9,7 +9,7 @@ namespace FirstPersonShooter
         private float _timeToDestroy = 10.0f;
 
         public float Hp = 100;
-        public event Action OnPointChanged = delegate { };
+        public event EventHandler OnPointChanged = delegate { };
         
         public void CollisionEnter(InfoCollision info)
         {
@@ -24,10 +24,9 @@ namespace FirstPersonShooter
                     gameObject.AddComponent<Rigidbody>();
                 }
                 Destroy(gameObject,_timeToDestroy);
-                OnPointChanged.Invoke();
+                OnPointChanged.Invoke(this,null);
                 _isDead = true;
             }
-
         }
 
         public string GetMessage()

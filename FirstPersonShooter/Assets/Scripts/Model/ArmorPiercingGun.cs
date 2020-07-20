@@ -1,10 +1,18 @@
 ﻿namespace FirstPersonShooter
 {
     /// <summary>
-    /// Автоматическое оружие
+    /// Бронебойное оружие
     /// </summary>
-    public sealed class AutomaticGun : Weapon
+    public sealed class ArmorPiercingGun: Weapon
     {
+        protected override void Awake()
+        {
+            base.Awake();
+            _countClip = 4;
+            _maxCountAmmunition = 10;
+            _minCountAmmunition = 5;
+        }
+         
         public override void Fire()
         {
             if (_isReady) 

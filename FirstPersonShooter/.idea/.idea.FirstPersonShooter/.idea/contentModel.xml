@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Consts.cs" t="Include" />
           <e p="Controller" t="Include">
             <e p="BaseController.cs" t="Include" />
             <e p="Controllers.cs" t="Include" />
@@ -25,8 +26,10 @@
           </e>
           <e p="Enums" t="Include">
             <e p="AmmunitionType.cs" t="Include" />
+            <e p="EnemyType.cs" t="Include" />
             <e p="FlashLightActiveType.cs" t="Include" />
             <e p="MouseButton.cs" t="Include" />
+            <e p="PoolingStratagy.cs" t="Include" />
           </e>
           <e p="Helpers" t="Include">
             <e p="InfoCollision.cs" t="Include" />
@@ -41,11 +44,19 @@
           <e p="Model" t="Include">
             <e p="Aim.cs" t="Include" />
             <e p="Ammunition.cs" t="Include" />
+            <e p="ArmoredEnemy.cs" t="Include" />
+            <e p="ArmorPiercingBullet.cs" t="Include" />
+            <e p="ArmorPiercingGun.cs" t="Include" />
             <e p="AutomaticGun.cs" t="Include" />
             <e p="BaseObject.cs" t="Include" />
+            <e p="Bullet.cs" t="Include" />
+            <e p="Cache" t="Include">
+              <e p="CacheObject.cs" t="Include" />
+              <e p="CacheObjectRepo.cs" t="Include" />
+            </e>
             <e p="Clip.cs" t="Include" />
+            <e p="Enemy.cs" t="Include" />
             <e p="FlashLightModel.cs" t="Include" />
-            <e p="Gun.cs" t="Include" />
             <e p="Inventory.cs" t="Include" />
             <e p="UnitMotor.cs" t="Include" />
             <e p="Wall.cs" t="Include" />
