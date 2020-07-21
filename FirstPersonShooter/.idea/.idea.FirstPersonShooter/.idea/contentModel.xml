@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\eindz\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\eindz\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_FirstPersonShooter.821709596.00" t="ExcludeRecursive" />
+    <e p="C:\Users\eindz\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\eindz\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_FirstPersonShooter.821709596.00" t="ExcludeRecursive" />
+    <e p="C:\Users\eindz\AppData\Roaming\JetBrains\Rider2020.1\extensions" t="IncludeRecursive" />
     <e p="E:\Projects\FirstPersonShooter\FirstPersonShooter" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -26,6 +27,7 @@
           </e>
           <e p="Enums" t="Include">
             <e p="AmmunitionType.cs" t="Include" />
+            <e p="BotState.cs" t="Include" />
             <e p="EnemyType.cs" t="Include" />
             <e p="FlashLightActiveType.cs" t="Include" />
             <e p="MouseButton.cs" t="Include" />
@@ -33,6 +35,10 @@
           </e>
           <e p="Helpers" t="Include">
             <e p="InfoCollision.cs" t="Include" />
+            <e p="MovingPoints" t="Include">
+              <e p="DestroyPoint.cs" t="Include" />
+              <e p="MovingPoints.cs" t="Include" />
+            </e>
           </e>
           <e p="Interface" t="Include">
             <e p="ICollision.cs" t="Include" />
@@ -42,6 +48,13 @@
             <e p="ISelectObj.cs" t="Include" />
           </e>
           <e p="Model" t="Include">
+            <e p="AI" t="Include">
+              <e p="BodyBot.cs" t="Include" />
+              <e p="Bot.cs" t="Include" />
+              <e p="BotHead.cs" t="Include" />
+              <e p="Patrol.cs" t="Include" />
+              <e p="Vision.cs" t="Include" />
+            </e>
             <e p="Aim.cs" t="Include" />
             <e p="Ammunition.cs" t="Include" />
             <e p="ArmoredEnemy.cs" t="Include" />
