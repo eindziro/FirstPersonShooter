@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\eindz\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\eindz\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_FirstPersonShooter.821709596.00" t="ExcludeRecursive" />
+    <e p="C:\Users\eindz\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\eindz\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_FirstPersonShooter.821709596.00" t="ExcludeRecursive" />
+    <e p="C:\Users\eindz\AppData\Roaming\JetBrains\Rider2020.1\extensions" t="IncludeRecursive" />
     <e p="E:\Projects\FirstPersonShooter\FirstPersonShooter" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -23,6 +25,9 @@
               <e p="TimeRemainingExtensions.cs" t="Include" />
             </e>
             <e p="WeaponController.cs" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="CreateCone.cs" t="Include" />
           </e>
           <e p="Enums" t="Include">
             <e p="AmmunitionType.cs" t="Include" />
