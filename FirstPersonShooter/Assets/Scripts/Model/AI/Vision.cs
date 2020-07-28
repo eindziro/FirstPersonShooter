@@ -29,6 +29,6 @@ namespace FirstPersonShooter
         {
             return (player.position - target.position).sqrMagnitude <= ActiveDis * ActiveDis;
         }
-        
+
     }
 }

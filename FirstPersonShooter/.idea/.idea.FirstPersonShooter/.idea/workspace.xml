@@ -1,44 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:features" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:features" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68da7a06-a7fd-4fb2-b8a0-88749eed0381" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Helpers/MovingPoints.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Helpers/MovingPoints/DestroyPoint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Helpers/MovingPoints/DestroyPoint.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Helpers/MovingPoints/MovingPoints.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Test.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Test.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interface/IHeal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interface/IHeal.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Model/AI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Environment.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Environment/HealthPack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Environment/HealthPack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Environment/Mine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Environment/Mine.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStateMachine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStateMachine.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates/DeadState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates/DeadState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates/DetectEnemiesState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates/DetectEnemiesState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates/InspectionState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates/InspectionState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates/PatrolState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates/PatrolState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachines/State.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachines/State.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Test.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Test/Test.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FirstPersonShooter/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FirstPersonShooter/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FirstPersonShooter/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FirstPersonShooter/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FirstPersonShooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FirstPersonShooter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Helpers/MovingPoints.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Helpers/MovingPoints/MovingPoints.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/AI/Bot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/AI/Bot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/AI/Vision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/AI/Vision.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Test/Test.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,25 +58,27 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/Controllers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/SelectionController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/WeaponController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates/PatrolState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Environment/HealthPack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D815B7EF-AC42-4EEB-8E05-3965CCCB1F98/40/05c1ba7f/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/BaseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B956647-017D-4DC1-B8D3-D25EEF012467/4b/c2cce962/Collision.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/3C991A22-0E1C-4C6E-8E16-CF6A3C15405B/e6/015251e9/02000018pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Environment/Mine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interface/IHeal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/GameController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/AI/Bot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/TimeRemaining/TimeRemainingExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../FirstPersonShooter/Assets/Scripts/Controller/SelectionController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/AI/Vision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/TimeRemaining/TimeRemaining.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/AI/BodyBot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/TimeRemaining/TimeRemainingController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/BotState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller/TimeRemaining/ITimeRemaining.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ServiceLocator/ServiceLocatorMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ServiceLocator/ServiceLocator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/MovingPoints/MovingPoints.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/AI/Patrol.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Test/Test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Consts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachines/State.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/View/FlashLightUi.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/View/SelectionObjMessageUi.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/View/WeaponUiText.cs" root0="FORCE_HIGHLIGHTING" />
@@ -84,16 +88,20 @@
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.3.6f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/View/AimUIText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/View/UiInterface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/AI/BodyBot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/FlashLightActiveType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/BotState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/PoolingStratagy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/AmmunitionType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates/DetectEnemiesState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/EnemyType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/MovingPoints/MovingPoints.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/MouseButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D815B7EF-AC42-4EEB-8E05-3965CCCB1F98/c8/cef83e0a/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/MovingPoints/DestroyPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Clip.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/AI/BotHead.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/ArmorPiercingGun.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/BaseObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
@@ -103,13 +111,19 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03035303-2B91-4045-A0B9-6BEA329B98D3/74/86054ec2/NavMeshPath.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/ArmorPiercingBullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Aim.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/AI/Vision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates/DeadState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Ammunition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/UnitMotor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/AI/Patrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/AutomaticGun.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/AI/BotHead.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates/InspectionState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/AI/Bot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Cache/CacheObjectRepo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/MovingPoints/DestroyPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Cache/CacheObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/94/9a1ef732/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/InfoCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interface/IExecute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interface/ICollision.cs" root0="FORCE_HIGHLIGHTING" />
@@ -119,18 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/TimeRemaining/TimeRemaining.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/TimeRemaining/ITimeRemaining.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/TimeRemaining/TimeRemainingExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controller/TimeRemaining/TimeRemainingController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enums/MouseButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Model/Clip.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Model/Gun.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Interface/ICollision.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Interface/ISelectObj.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/View/WeaponUIText.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/View/SelectionObjMessageUi.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/View/FlashLightUiText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/View/FlashLightUiBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/View/WeaponUiText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/View/UiInterface.cs" />
@@ -157,7 +159,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Model/Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller/InputController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Model/AI/asdadasda.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Model/AI/Vision.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enums/StateBot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Model/AI/BodyBot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Consts.cs" />
@@ -166,10 +167,23 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Model/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Model/ArmorPiercingBullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Model/AI/Patrol.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Model/AI/Bot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Helpers/MovingPoints.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Helpers/MovingPoints/DestroyPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Helpers/MovingPoints/MovingPoints.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates/NoneState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Test/Test.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Model/AI/Vision.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates/PatrolState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates/InspectionState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates/DeadState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachines/BotStates/DetectEnemiesState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StateMachines/State.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interface/IPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Model/Environment/Mine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interface/IHeal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Model/AI/Bot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Model/Environment/HealthPack.cs" />
       </list>
     </option>
   </component>
@@ -183,12 +197,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -235,6 +252,10 @@
       <workItem from="1595628415149" duration="185000" />
       <workItem from="1595628627670" duration="330000" />
       <workItem from="1595629004228" duration="2003000" />
+      <workItem from="1595708403982" duration="688000" />
+      <workItem from="1595749207939" duration="9544000" />
+      <workItem from="1595781911623" duration="611000" />
+      <workItem from="1595882478189" duration="10360000" />
     </task>
     <servers />
   </component>
@@ -268,14 +289,78 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="824" y="383" key="#Notifications/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595629008295" />
-    <state x="795" y="226" key="RiderGenerateDialog" timestamp="1595630570769">
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1595776637413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="795" y="226" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595630570769" />
-    <state x="225" y="140" key="SettingsEditor" timestamp="1595629398069">
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595776637413" />
+    <state width="1877" height="375" key="GridCell.Tab.0.center" timestamp="1595776637412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="225" y="140" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595629398069" />
+    <state width="1877" height="375" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595776637412" />
+    <state width="1877" height="375" key="GridCell.Tab.0.left" timestamp="1595776637412">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595776637412" />
+    <state width="1877" height="375" key="GridCell.Tab.0.right" timestamp="1595776637413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595776637413" />
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1595776637413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595776637413" />
+    <state width="1877" height="375" key="GridCell.Tab.1.center" timestamp="1595776637413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595776637413" />
+    <state width="1877" height="375" key="GridCell.Tab.1.left" timestamp="1595776637413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595776637413" />
+    <state width="1877" height="375" key="GridCell.Tab.1.right" timestamp="1595776637413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595776637413" />
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom" timestamp="1595776637413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595776637413" />
+    <state width="1877" height="375" key="GridCell.Tab.2.center" timestamp="1595776637413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595776637413" />
+    <state width="1877" height="375" key="GridCell.Tab.2.left" timestamp="1595776637413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595776637413" />
+    <state width="1877" height="375" key="GridCell.Tab.2.right" timestamp="1595776637413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595776637413" />
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom" timestamp="1595776637413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595776637413" />
+    <state width="1877" height="375" key="GridCell.Tab.3.center" timestamp="1595776637413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595776637413" />
+    <state width="1877" height="375" key="GridCell.Tab.3.left" timestamp="1595776637413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595776637413" />
+    <state width="1877" height="375" key="GridCell.Tab.3.right" timestamp="1595776637413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595776637413" />
+    <state x="795" y="226" key="RiderGenerateDialog" timestamp="1595773186531">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="795" y="226" key="RiderGenerateDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595773186531" />
+    <state x="225" y="140" key="SettingsEditor" timestamp="1595899534039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="225" y="140" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595899534039" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1595630850329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -288,9 +373,71 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="175" key="editAsTableFormatDialogDimension/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595287186312" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595289129591">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1595898764190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595289129591" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595898764190" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595901911892">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595901911892" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Test/Test.cs</url>
+          <line>8</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Test/Test.cs" initialLine="7">
+            <startOffsets>
+              <option value="146" />
+            </startOffsets>
+            <endOffsets>
+              <option value="147" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Test/Test.cs</url>
+          <line>12</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Test/Test.cs" initialLine="12">
+            <startOffsets>
+              <option value="196" />
+            </startOffsets>
+            <endOffsets>
+              <option value="197" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Test/Test.cs</url>
+          <line>17</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Test/Test.cs" initialLine="17">
+            <startOffsets>
+              <option value="262" />
+            </startOffsets>
+            <endOffsets>
+              <option value="263" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Test/Test.cs</url>
+          <line>21</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Test/Test.cs" initialLine="21">
+            <startOffsets>
+              <option value="316" />
+            </startOffsets>
+            <endOffsets>
+              <option value="317" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
