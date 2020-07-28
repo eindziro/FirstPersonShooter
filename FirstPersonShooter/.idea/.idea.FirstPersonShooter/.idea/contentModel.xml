@@ -11,6 +11,7 @@
           <e p="Consts.cs" t="Include" />
           <e p="Controller" t="Include">
             <e p="BaseController.cs" t="Include" />
+            <e p="BotController.cs" t="Include" />
             <e p="Controllers.cs" t="Include" />
             <e p="FlashLightController.cs" t="Include" />
             <e p="GameController.cs" t="Include" />
@@ -39,6 +40,7 @@
               <e p="DestroyPoint.cs" t="Include" />
               <e p="MovingPoints.cs" t="Include" />
             </e>
+            <e p="Reference.cs" t="Include" />
           </e>
           <e p="Interface" t="Include">
             <e p="ICollision.cs" t="Include" />

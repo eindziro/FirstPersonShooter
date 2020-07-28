@@ -123,8 +123,7 @@ namespace FirstPersonShooter
                 }
             }
         }
-
-
+        
         public void SetHeal(float heal)
         {
             if ((Hp + heal) > MaxHp)
