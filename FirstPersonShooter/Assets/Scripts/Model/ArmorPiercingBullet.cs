@@ -24,7 +24,8 @@ namespace FirstPersonShooter
 
             if (setDamage != null)
             {
-                setDamage.CollisionEnter(new InfoCollision(_curDamage,Type, Rigidbody.velocity));
+                setDamage.CollisionEnter(new InfoCollision(_curDamage, Type, collision.transform, collision.contacts[0],
+                    Rigidbody.velocity));
             }
 
             LossDamageAfterCollision();

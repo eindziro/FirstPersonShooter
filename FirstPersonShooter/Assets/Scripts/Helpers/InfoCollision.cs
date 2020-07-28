@@ -10,19 +10,24 @@ namespace FirstPersonShooter
         private readonly Vector3 _dir;
         private readonly float _damage;
         private readonly AmmunitionType _type;
+        private readonly Transform _objCollision;
+        private readonly ContactPoint _contact;
 
         /// <summary>
         /// Информация о попадании снаряда
         /// </summary>
         /// <param name="damage">Полученный урон</param>
         /// <param name="dir">Вектор попадания</param>
-        public InfoCollision(float damage,AmmunitionType type, Vector3 dir = default)
+        public InfoCollision(float damage, AmmunitionType type, Transform objCollision, ContactPoint contact,
+            Vector3 dir = default)
         {
             _damage = damage;
-            _dir = dir;
             _type = type;
+            _objCollision = objCollision;
+            _contact = contact;
+            _dir = dir;
         }
-        
+
         /// <summary>
         /// Вектор попадания
         /// </summary>
@@ -38,5 +43,8 @@ namespace FirstPersonShooter
         /// </summary>
         public AmmunitionType Type => _type;
 
+        public Transform ObjCollision => _objCollision;
+
+        public ContactPoint Contact => _contact;
     }
 }
